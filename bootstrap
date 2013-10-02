@@ -1,0 +1,8 @@
+berks install --path=./cookbooks
+vagrant up
+knife solo prepare web
+knife solo prepare es01
+knife solo prepare es02
+knife solo cook es01
+knife solo cook es02
+knife solo cook web

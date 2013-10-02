@@ -1,0 +1,9 @@
+{"run_list":[
+  "git",
+  "httpd",
+  "elasticsearch-head",
+  "elasticsearch-bigdesk",
+  "td-agent",
+  "td-agent-elasticsearch",
+  "kibana3"
+]}

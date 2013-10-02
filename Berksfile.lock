@@ -1,0 +1,35 @@
+{
+  "sources": {
+    "td-agent": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/treasure-data/chef-td-agent.git",
+      "ref": "e59c017560cebc689f23827c368e5be9c6b2b77d"
+    },
+    "git": {
+      "locked_version": "2.7.1",
+      "git": "https://github.com/opscode-cookbooks/git.git",
+      "ref": "ea7deab8813d01352dde3014458360e5b5fddc77"
+    },
+    "apt": {
+      "locked_version": "2.1.1"
+    },
+    "yum": {
+      "locked_version": "2.3.2"
+    },
+    "dmg": {
+      "locked_version": "2.0.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "runit": {
+      "locked_version": "1.2.0"
+    }
+  }
+}
