@@ -11,13 +11,13 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "es01" do |es01|
     es01.vm.hostname = "es01"
-    es01.vm.network :forwarded_port, guest: 9200, host: 9200
+#    es01.vm.network :forwarded_port, guest: 9200, host: 9200
     es01.vm.network "private_network", ip: "192.168.50.101"
   end
 
   config.vm.define "es02" do |es02|
     es02.vm.hostname = "es02"
-    es02.vm.network :forwarded_port, guest: 9200, host: 9200
+#    es02.vm.network :forwarded_port, guest: 9200, host: 9201
     es02.vm.network "private_network", ip: "192.168.50.102"
   end
 
